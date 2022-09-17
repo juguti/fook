@@ -1,0 +1,8 @@
+{
+  "parent": "fook:custom/poele",
+  "textures": {
+    "all": "fook:blocks/stove",
+    "particle": "fook:blocks/stove",
+    "0": "fook:blocks/stove"
+  }
+}

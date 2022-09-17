@@ -1,0 +1,160 @@
+{
+  "mod_elements": [
+    {
+      "name": "Interfacestove",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interfacestove"
+    },
+    {
+      "name": "Fook",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fook"
+    },
+    {
+      "name": "Plachauffante",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plachauffante"
+    },
+    {
+      "name": "Cuisine",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuisine",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Steakoeuf",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steakoeuf"
+    },
+    {
+      "name": "Graine",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graine"
+    },
+    {
+      "name": "Saladestade0",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saladestade_0"
+    },
+    {
+      "name": "Poele",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poele"
+    },
+    {
+      "name": "Poeleitem",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poeleitem"
+    },
+    {
+      "name": "Poelespawn",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poelespawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.fook.plachauffante": "Plachauffante",
+      "block.fook.saladestade_0": "Saladestade 0",
+      "item.fook.graine": "Graine",
+      "item.fook.steakoeuf": "Steakoeuf",
+      "block.fook.poele": "Poele",
+      "item.fook.poeleitem": "Poeleitem",
+      "itemGroup.tabfook": "Fook"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "fook",
+    "modName": "fook",
+    "version": "1.0.0",
+    "author": "Bussac, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.fook",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

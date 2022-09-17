@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fook:block/poele"
+    },
+    "facing=east": {
+      "model": "fook:block/poele",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fook:block/poele",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fook:block/poele",
+      "y": 270
+    }
+  }
+}
